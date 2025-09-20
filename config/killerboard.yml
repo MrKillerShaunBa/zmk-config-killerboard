@@ -1,0 +1,9 @@
+ file_format: "1"
+id: killerboard
+name: killerboard
+type: shield
+url: https://github.com/MrKillerShaunBa/zmk-config-killerboard
+requires: [nice_nano_v2]
+features:
+  - keys
+  - zmk studio
