@@ -1,2 +1,3 @@
 config SHIELD_KILLERBOARD
-    def_bool $(shields_list_contains, KillerBoard)
+    def_bool $(shields_list_contains, killerboard)
+
