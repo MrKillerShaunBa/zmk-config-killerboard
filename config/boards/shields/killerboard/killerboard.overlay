@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "plancklow-layouts.dtsi"
+#include "killerboard-layouts.dtsi"
 
 &physical_layout0 {
     transform = <&matrix_transform>;
@@ -59,6 +59,7 @@ RC(8,0) RC(9,0) RC(8,1)                         RC(9,3)                 RC(8,5) 
         };
     };
 };
+
 
 
 
