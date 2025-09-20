@@ -1,0 +1,16 @@
+/ {
+    chosen {
+        zmk,keyboard = &keyboard;
+    };
+
+    keyboard: keyboard {
+        compatible = "zmk,keyboard";
+
+        physical-layout {
+            compatible = "zmk,physical-layout";
+
+            columns = <8>;
+            rows = <10>;
+        };
+    };
+};
