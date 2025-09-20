@@ -7,8 +7,8 @@
 
 /{
     chosen{
-        zmk,kscan = &default_kscan;
-        zmk,matrix_transform = &default_transform;
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
     };
 
     default_kscan: kscan {
@@ -36,7 +36,7 @@
                     <&pro_micro 15 GPIO_ACTIVE_HIGH>;
     };
 
-    default_transform: matrix_transform {
+    matrix_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         rows = <10>;
         columns = <8>;
@@ -50,15 +50,8 @@ RC(8,0) RC(9,0) RC(8,1)                         RC(9,3)                 RC(8,5) 
 
         >;
     };
-    keyboard: keyboard {
-    compatible = "zmk,keyboard";
-        physical-layout {
-            compatible = "zmk,physical-layout";
-            display-name = "KillerBoard";         /* required */
-            transform = <&default_transform>;     /* required */
-        };
-    };
 };
+
 
 
 
