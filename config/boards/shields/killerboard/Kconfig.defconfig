@@ -1,6 +1,7 @@
 if SHIELD_KILLERBOARD
 
 config ZMK_KEYBOARD_NAME
-    default "KillerBoard"
+    default "killerboard"
 
 endif
+
